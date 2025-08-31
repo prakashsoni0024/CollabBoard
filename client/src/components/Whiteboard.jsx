@@ -3,7 +3,7 @@ import { io } from "socket.io-client";
 import { useParams } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid"; // For unique note IDs
 
-const socket = io("https://whiteboard3-y6mh.onrender.com");
+const socket = io("https://collabboard-dq8t.onrender.com");
 
 // const socket = io("http://localhost:5000");
 
@@ -375,3 +375,4 @@ const Whiteboard = () => {
 };
 
 export default Whiteboard;
+
